@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>선택자</title>
+    <style>
+      /* CSS 초기화 용도로 사용 */
+      * {
+        margin: 0;
+        padding: 0px;
+      }
+      /* 타입 선택자 */
+      h1 {
+        background-color: red;
+      }
+      /* 아이디 선택자 */
+      #p1 {
+        background-color: blue;
+      }
+      /* 클래스 선택자 */
+      .h2 {
+        background-color: yellow;
+      }
+      /* 특성 선택자 */
+      [type] {
+        border: 3px solid black;
+      }
+      [type="button"] {
+        border: 3px solid pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Hello</h1>
+      <h2 class="h2">Hello</h2>
+      <p id="p1">Hello</p>
+      <button type="button">Hello</button>
+    </div>
+  </body>
+</html>

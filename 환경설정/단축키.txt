@@ -1,0 +1,15 @@
+Ctrl + N : 새로운 파일
+Ctrl + S : 저장
+Ctrl + D : 같은 단어 찾기
+Ctrl + C, Ctrl + V : 드래그 하지 않고
+Alt + Shift + 위아래 : 위와 동일
+Home , End : 해당 줄 맨 앞, 맨 뒤
+Ctrl + Alt + 위아래 : 동시 수정
+Ctrl + B : 사이드바
+Ctrl + / : 주석
+Ctrl + ], tab : 들여쓰기
+Ctrl + [, Shift + tab : 내여쓰기
+Shift + Del
+Ctrl + , : Settings => word wrap 검색 후 off -> on으로 해주면 code가 자동줄바꿈
+
+

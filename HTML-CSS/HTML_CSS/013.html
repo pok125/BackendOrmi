@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>boxmodel</title>
+    <style>
+      .d1 {
+        width: 100px;
+        height: 100px;
+        background-color: skyblue;
+        padding-top: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+      .d2 {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        margin: auto;
+        box-sizing: content-box;
+      }
+      .bg {
+        width: 600px;
+        height: 400px;
+        /* background: url(./img/est.jpg); */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        /* background-position: 50% 50%; */
+        background: yellow url(img/est.jpg) no-repeat 50% 50% / cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="d1">div</div>
+    <div class="d2">div2</div>
+  </body>
+</html>
